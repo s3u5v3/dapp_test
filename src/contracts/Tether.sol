@@ -1,0 +1,42 @@
+pragma solidity ^0.5.16;
+
+// 送金するコントラクト
+
+contract Tether {
+  string public name = 'Mock Tether Token';
+  string symbol = 'mUSDT';
+  uint256 public totalSupply = 1000000000000000000; // 1 million tokens
+  uint public decimals = 18;
+
+  event Transfer(
+    address indexed _from
+    address indexed _to,
+    uint _value
+  );
+
+  event Approve(
+    address indexed _owner
+    address indexed _spender,
+    uint _value
+  );
+
+  mapping(address => uint256) public balanceOf;
+
+  constructor(){
+    balanceOf[msg.sender] = totalSupply
+  }
+  // 送信先アドレスと金額を引数にとる
+  function transfer(address _to, uint _value) public return (bool success) {
+    // require that the value is greater or equal for transfer
+    require(balanceOf[msg.sender] >= _value);
+    // transfer the amount and subtract the balane
+    // 送信者のアカウントから金額を減らす
+    balanceOf[msg.sender] -= _value;
+    // add the balance
+    // 受信者の金額を増やす
+    balanceOf[_to] += _value;
+    // eventを実行
+    emit Transfer(_from, _to, _value);
+    return true;
+  }
+}
