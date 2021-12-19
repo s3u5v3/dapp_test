@@ -9,13 +9,13 @@ contract Tether {
   uint public decimals = 18;
 
   event Transfer(
-    address indexed _from
+    address indexed _from,
     address indexed _to,
     uint _value
   );
 
   event Approval(
-    address indexed _owner
+    address indexed _owner,
     address indexed _spender,
     uint _value
   );
@@ -23,11 +23,11 @@ contract Tether {
   mapping(address => uint256) public balanceOf;
   mapping(address => mapping(address => uint256)) public allowance;
 
-  constructor(){
-    balanceOf[msg.sender] = totalSupply
+  constructor() public{
+    balanceOf[msg.sender] = totalSupply;
   }
   // 送信先アドレスと金額を引数にとる
-  function transfer(address _to, uint256 _value) public return (bool success) {
+  function transfer(address _to, uint256 _value) public returns (bool success) {
     // require that the value is greater or equal for transfer
     require(balanceOf[msg.sender] >= _value);
     // transfer the amount and subtract the balane
@@ -41,7 +41,7 @@ contract Tether {
     return true;
   }
 
-  function approve(_spender, uint256 _value) public returns (bool success){
+  function approve(address _spender, uint256 _value) public returns (bool success){
     allowance[msg.sender][_spender] = _value;
     emit Approval(msg.sender, _spender, _value);
     return true;
