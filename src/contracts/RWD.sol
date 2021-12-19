@@ -2,9 +2,9 @@ pragma solidity ^0.5.16;
 
 // 送金するコントラクト
 
-contract Tether {
-  string public name = 'Mock Tether Token';
-  string symbol = 'mUSDT';
+contract RWD {
+  string public name = 'Reward Token';
+  string symbol = 'RWD';
   uint256 public totalSupply = 1000000000000000000; // 1 million tokens
   uint public decimals = 18;
 
