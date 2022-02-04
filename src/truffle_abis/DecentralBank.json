@@ -113,7 +113,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 35,
-        "sourceUnit": 273,
+        "sourceUnit": 216,
         "src": "26:19:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -124,7 +124,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 35,
-        "sourceUnit": 454,
+        "sourceUnit": 397,
         "src": "46:22:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -222,7 +222,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Tether_$453",
+              "typeIdentifier": "t_contract$_Tether_$396",
               "typeString": "contract Tether"
             },
             "typeName": {
@@ -230,10 +230,10 @@
               "id": 9,
               "name": "Tether",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 453,
+              "referencedDeclaration": 396,
               "src": "162:6:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Tether_$453",
+                "typeIdentifier": "t_contract$_Tether_$396",
                 "typeString": "contract Tether"
               }
             },
@@ -250,7 +250,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_RWD_$272",
+              "typeIdentifier": "t_contract$_RWD_$215",
               "typeString": "contract RWD"
             },
             "typeName": {
@@ -258,10 +258,10 @@
               "id": 11,
               "name": "RWD",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 272,
+              "referencedDeclaration": 215,
               "src": "186:3:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_RWD_$272",
+                "typeIdentifier": "t_contract$_RWD_$215",
                 "typeString": "contract RWD"
               }
             },
@@ -291,7 +291,7 @@
                       "referencedDeclaration": 12,
                       "src": "256:3:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_RWD_$272",
+                        "typeIdentifier": "t_contract$_RWD_$215",
                         "typeString": "contract RWD"
                       }
                     },
@@ -306,13 +306,13 @@
                       "referencedDeclaration": 14,
                       "src": "262:4:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_RWD_$272",
+                        "typeIdentifier": "t_contract$_RWD_$215",
                         "typeString": "contract RWD"
                       }
                     },
                     "src": "256:10:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_RWD_$272",
+                      "typeIdentifier": "t_contract$_RWD_$215",
                       "typeString": "contract RWD"
                     }
                   },
@@ -337,7 +337,7 @@
                       "referencedDeclaration": 10,
                       "src": "272:6:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Tether_$453",
+                        "typeIdentifier": "t_contract$_Tether_$396",
                         "typeString": "contract Tether"
                       }
                     },
@@ -352,13 +352,13 @@
                       "referencedDeclaration": 16,
                       "src": "281:7:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Tether_$453",
+                        "typeIdentifier": "t_contract$_Tether_$396",
                         "typeString": "contract Tether"
                       }
                     },
                     "src": "272:16:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Tether_$453",
+                      "typeIdentifier": "t_contract$_Tether_$396",
                       "typeString": "contract Tether"
                     }
                   },
@@ -397,7 +397,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 468,
+                        "referencedDeclaration": 411,
                         "src": "302:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -451,7 +451,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_RWD_$272",
+                    "typeIdentifier": "t_contract$_RWD_$215",
                     "typeString": "contract RWD"
                   },
                   "typeName": {
@@ -459,10 +459,10 @@
                     "id": 13,
                     "name": "RWD",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 272,
+                    "referencedDeclaration": 215,
                     "src": "217:3:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_RWD_$272",
+                      "typeIdentifier": "t_contract$_RWD_$215",
                       "typeString": "contract RWD"
                     }
                   },
@@ -479,7 +479,7 @@
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Tether_$453",
+                    "typeIdentifier": "t_contract$_Tether_$396",
                     "typeString": "contract Tether"
                   },
                   "typeName": {
@@ -487,10 +487,10 @@
                     "id": 15,
                     "name": "Tether",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 453,
+                    "referencedDeclaration": 396,
                     "src": "227:6:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Tether_$453",
+                      "typeIdentifier": "t_contract$_Tether_$396",
                       "typeString": "contract Tether"
                     }
                   },
@@ -544,7 +544,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 273,
+          "SourceUnit": 216,
           "absolutePath": "project:/src/contracts/RWD.sol",
           "file": "./RWD.sol",
           "scope": 35,
@@ -559,7 +559,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 454,
+          "SourceUnit": 397,
           "absolutePath": "project:/src/contracts/Tether.sol",
           "file": "./Tether.sol",
           "scope": 35,
@@ -675,7 +675,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Tether",
-                  "referencedDeclaration": 453,
+                  "referencedDeclaration": 396,
                   "type": "contract Tether"
                 },
                 "id": 9,
@@ -703,7 +703,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "RWD",
-                  "referencedDeclaration": 272,
+                  "referencedDeclaration": 215,
                   "type": "contract RWD"
                 },
                 "id": 11,
@@ -749,7 +749,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "RWD",
-                          "referencedDeclaration": 272,
+                          "referencedDeclaration": 215,
                           "type": "contract RWD"
                         },
                         "id": 13,
@@ -777,7 +777,7 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "Tether",
-                          "referencedDeclaration": 453,
+                          "referencedDeclaration": 396,
                           "type": "contract Tether"
                         },
                         "id": 15,
@@ -954,7 +954,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 468,
+                                  "referencedDeclaration": 411,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1003,7 +1003,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2021-12-22T16:01:41.400Z",
+  "updatedAt": "2021-12-22T16:06:57.904Z",
   "devdoc": {
     "methods": {}
   },
